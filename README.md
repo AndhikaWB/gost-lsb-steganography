@@ -1,9 +1,9 @@
 # GOST + XOR LSB with PRNG
 Message hiding in images using GOST cryptography and (modified) LSB steganography. Please note that this is only a proof of concept! LSB is known to be very weak against image modifications such as cropping, rotation, and compression.
 
-<p align="center">
+<div align="center">
     <img src="docs/Screenshot_1.png" width=450>
-</p>
+</div>
 
 ## Instructions
 To inject message into an image:
@@ -23,21 +23,21 @@ To extract message from an image:
 ## Sample Image
 Cover image (left) was taken by Dejan Zakic from [Unsplash](https://unsplash.com/photos/hWD7n1m09GQ), stego image (right) was injected with message `HelloWorld`. Could you notice the difference?
 
-<p align="center">
+<div align="center">
     <table>
         <tr>
-            <td style="text-align: center">Cover Image</td>
-            <td style="text-align: center">Stego Image</td>
+            <td align="center">Cover Image</td>
+            <td align="center">Stego Image</td>
         </tr>
         <tr>
-            <td style="text-align: center"><img src="docs/Screenshot_2.png" width=300></td>
-            <td style="text-align: center"><img src="docs/Screenshot_3.png" width=300></td>
+            <td align="center"><img src="docs/Screenshot_2.png" width=300></td>
+            <td align="center"><img src="docs/Screenshot_3.png" width=300></td>
         </tr>
         <tr>
-            <td style="text-align: center" colspan="2">MSE (Mean Squared Error): 0.000245<br>PSNR (Peak Signal-to-Noise Ratio): 84.231</td>
+            <td align="center" colspan="2">MSE (Mean Squared Error): 0.000245<br>PSNR (Peak Signal-to-Noise Ratio): 84.231</td>
         </tr>
     </table>
-</p>
+</div>
 
 ## Other Note
 The source code shared here is for a journal that I made. Use it freely, but don't make another journal based on it (with exact same algorithms).
